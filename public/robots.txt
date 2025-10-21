@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Exclude chat test page from indexing
+Disallow: /chat-test
+
+# Exclude any URL with chat parameter
+Disallow: /*?chat=1
+
+Sitemap: https://your-domain.com/sitemap.xml
